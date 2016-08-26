@@ -31,19 +31,31 @@
       "intent": "BeginIntent"
     },
     {
-      "intent": "OpenDoorOneIntent"
+      "intent": "ExamineBushesIntent"
     },
     {
-      "intent": "OpenDoorTwoIntent"
+      "intent": "GoNorthIntent"
     },
     {
-      "intent": "OpenDoorThreeIntent"
+      "intent": "GoWestIntent"
     },
     {
-      "intent": "OpenDoorFourIntent"
+      "intent": "GoEastIntent"
     },
     {
-      "intent": "OpenDoorFiveIntent"
+      "intent": "GoSouthIntent"
+    },
+    {
+      "intent": "UseKnifeIntent"
+    },
+    {
+      "intent": "EnterTruckIntent"
+    },
+    {
+      "intent": "OpenGloveCompartmentIntent"
+    },
+    {
+      "intent": "TakeKnifeIntent"
     }
   ]
 }
