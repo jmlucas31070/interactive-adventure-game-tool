@@ -49,10 +49,16 @@ module.exports = {
 	"EnterTruckIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "enter truck" )
 	},
-	"OpenGloveCompartmentIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open glove compartment" )
+	"OpenGloveBoxIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "open glove box" )
 	},
 	"TakeKnifeIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "take knife" )
+	},
+	"RunIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "run" )
+	},
+	"StandGroundIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "stand ground" )
 	},
 }

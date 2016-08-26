@@ -52,10 +52,16 @@
       "intent": "EnterTruckIntent"
     },
     {
-      "intent": "OpenGloveCompartmentIntent"
+      "intent": "OpenGloveBoxIntent"
     },
     {
       "intent": "TakeKnifeIntent"
+    },
+    {
+      "intent": "RunIntent"
+    },
+    {
+      "intent": "StandGroundIntent"
     }
   ]
 }

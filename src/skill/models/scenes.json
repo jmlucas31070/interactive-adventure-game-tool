@@ -6,7 +6,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Welcome",
-      "text": "Welcome to Actual Cannibal. This adventure game is loosely based on the horror-comedy song 'Actual Cannibal Shia LaBeouf' by Rob Cantor. To learn how to play this game, say \"Help\".",
+      "text": "Welcome to Actual Cannibal. This adventure game is loosely based on the horror-comedy song,  'Actual Cannibal Shia LaBeouf',  by Rob Cantor. To learn how to play this game, say \"Help\".",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -14,7 +14,7 @@
       }
     },
     "voice": {
-      "intro": "Welcome to Actual Cannibal. This adventure game is loosely based on the horror-comedy song 'Actual Cannibal Shia LaBeouf' by Rob Cantor. To learn how to play this game, say \"Help\".",
+      "intro": "Welcome to Actual Cannibal. This adventure game is loosely based on the horror-comedy song,  'Actual Cannibal: Shia LaBeouf',  by Rob Cantor. To learn how to play this game, say \"Help\".",
       "prompt": "When you are ready, say \"Begin\"."
     },
     "options": [
@@ -26,7 +26,7 @@
       }
     ],
     "setSessionFlagsOnEnter": "",
-    "setSessionFlagsOnExit": "",
+    "setSessionFlagsOnExit": "cannibalActive=1\ninventory.knife=1",
     "entryConditions": "",
     "alternateConditions": "",
     "rejectVoice": {
@@ -121,7 +121,7 @@
       "prompt": ""
     },
     "alternateVoice": {
-      "intro": "You're in the middle of the woods. There's no one around. Out of the corner of your eye you spot him: Shia LaBeouf. He emerges from the bushes following you about 30 feet back. If you have a knife, you can say \"Use Knife\" to confront him.",
+      "intro": "You're in the middle of the woods. Out of the corner of your eye you spot him: Shia LaBeouf. He emerges from the bushes following you about 30 feet back. If you have a knife you can confront him.",
       "prompt": ""
     },
     "rejectCard": {
@@ -135,7 +135,7 @@
     },
     "alternateCard": {
       "title": "Central Woods",
-      "text": "You're in the middle of the woods. There's no one around. Out of the corner of your eye you spot him: Shia LaBeouf. He emerges from the bushes following you about 30 feet back. If you have a knife, you can say \"Use Knife\" to confront him.",
+      "text": "You're in the middle of the woods. Out of the corner of your eye you spot him: Shia LaBeouf. He emerges from the bushes following you about 30 feet back. If you have a knife you can confront him.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -155,7 +155,7 @@
     "alternateConditions": "",
     "card": {
       "title": "Bushes",
-      "text": "You peer into the bushes, but it's too dark to see inside. Maybe if you had a Torch?",
+      "text": "You peer into the bushes, but it's too dark to see inside without a Flashlight.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -181,7 +181,7 @@
       }
     },
     "voice": {
-      "intro": "You peer into the bushes, but it's too dark to see inside. Maybe if you had a Torch?",
+      "intro": "You peer into the bushes, but it's too dark to see inside without a Flashlight.",
       "prompt": ""
     },
     "alternateVoice": {
@@ -308,7 +308,7 @@
     "alternateConditions": "",
     "card": {
       "title": "East Woods",
-      "text": "You're walking in the woods. There's no one around. There is a rusting old pick up truck tangled in the undergrowth.",
+      "text": "You're walking in the woods. There's no one around. There is a rusting old pick up truck, buried in the undergrowth.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -334,7 +334,7 @@
       }
     },
     "voice": {
-      "intro": "You're walking in the woods. There's no one around. There is a rusting old pick up truck tangled in the undergrowth.",
+      "intro": "You're walking in the woods. There's no one around. There is a rusting old pick up truck, buried in the undergrowth.",
       "prompt": ""
     },
     "alternateVoice": {
@@ -417,7 +417,7 @@
     "alternateConditions": "",
     "card": {
       "title": "Old Truck",
-      "text": "You are inside the old truck. The seats are worn and tattered. It's quite dusty; you stifle a sneeze as you gaze around the interior. The glove compartment is busted open and you see some things inside. There is a pile of rubbish on the passenger seat.",
+      "text": "You are inside the old truck. The seats are worn and tattered. It's quite dusty. You stifle a sneeze as you gaze around the interior. The glove box is busted open and you see some things inside. There is a pile of rubbish on the passenger seat.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -443,7 +443,7 @@
       }
     },
     "voice": {
-      "intro": "You are inside the old truck. The seats are worn and tattered. It's quite dusty; you stifle a sneeze as you gaze around the interior. The glove compartment is busted open and you see some things inside. There is a pile of rubbish on the passenger seat.",
+      "intro": "You are inside the old truck. The seats are worn and tattered. It's quite dusty. You stifle a sneeze as you gaze around the interior. The glove box is busted open and you see some things inside. There is a pile of rubbish on the passenger seat.",
       "prompt": ""
     },
     "alternateVoice": {
@@ -458,7 +458,7 @@
       {
         "sceneId": 8,
         "utterances": [
-          "open glove compartment"
+          "open glove box"
         ]
       }
     ]
@@ -472,10 +472,10 @@
     "setSessionFlagsOnEnter": "",
     "setSessionFlagsOnExit": "",
     "entryConditions": "",
-    "alternateConditions": "",
+    "alternateConditions": "inventory.knife=1",
     "card": {
-      "title": "Glove Compartment",
-      "text": "Inside the glove compartment you find a bunch of junk and a Rusty Knife.",
+      "title": "Glove Box",
+      "text": "Inside the glove box you find a bunch of junk and a Rusty Knife.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -485,7 +485,7 @@
     "alternateCard": {
       "title": "Glove Compartment",
       "text": "Inside the glove compartment you find a bunch of junk.",
-      "prompt": "",
+      "prompt": "There's nothing else of value.",
       "image": {
         "largeImageUrl": null,
         "smallImageUrl": null
@@ -501,12 +501,12 @@
       }
     },
     "voice": {
-      "intro": "Inside the glove compartment you find a bunch of junk and a Rusty Knife.",
+      "intro": "Inside the glove box you find a bunch of junk and a Rusty Knife.",
       "prompt": ""
     },
     "alternateVoice": {
       "intro": "Inside the glove compartment you find a bunch of junk.",
-      "prompt": ""
+      "prompt": "There's nothing else of value."
     },
     "rejectVoice": {
       "intro": "",
@@ -527,13 +527,13 @@
     "isHidden": true,
     "generateOptions": true,
     "readPreviousOptions": true,
-    "setSessionFlagsOnEnter": "",
+    "setSessionFlagsOnEnter": "cannibalCombat=1",
     "setSessionFlagsOnExit": "",
-    "entryConditions": "inventory.knife=1\nAND\ncannibal=1",
+    "entryConditions": "inventory.knife=1\nAND\ncannibalActive=1",
     "alternateConditions": "",
     "card": {
       "title": "Combat",
-      "text": "You swipe at Shia LaBeouf with your knife. He parries to the left.",
+      "text": "You pull out your knife and prepare to face Shia LaBeouf. He gets down on all fours and breaks into a sprint. Do you run or stand your ground?",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -559,7 +559,7 @@
       }
     },
     "voice": {
-      "intro": "You swipe at Shia LaBeouf with your knife. He parries to the left.",
+      "intro": "You pull out your knife and prepare to face Shia LaBeouf. He gets down on all fours and breaks into a sprint. Do you run or stand your ground?",
       "prompt": ""
     },
     "alternateVoice": {
@@ -570,7 +570,20 @@
       "intro": "Now isn't a good time to be fighting.",
       "prompt": ""
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 11,
+        "utterances": [
+          "run"
+        ]
+      },
+      {
+        "sceneId": 12,
+        "utterances": [
+          "stand ground"
+        ]
+      }
+    ]
   },
   {
     "id": 10,
@@ -584,7 +597,7 @@
     "alternateConditions": "inventory.knife=1",
     "card": {
       "title": "Rusty Knife",
-      "text": "You take the knife. You can try using it at any time by saying \"Use Knife\".",
+      "text": "You take the knife.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -610,11 +623,113 @@
       }
     },
     "voice": {
-      "intro": "You take the knife. You can try using it at any time by saying \"Use Knife\".",
+      "intro": "You take the knife.",
       "prompt": ""
     },
     "alternateVoice": {
       "intro": "You already have the knife.",
+      "prompt": ""
+    },
+    "rejectVoice": {
+      "intro": "",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 11,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "setSessionFlagsOnEnter": "",
+    "setSessionFlagsOnExit": "",
+    "entryConditions": "",
+    "alternateConditions": "",
+    "card": {
+      "title": "Running",
+      "text": "You turn around and begin to run. He's gaining on you.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "alternateCard": {
+      "title": "",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "rejectCard": {
+      "title": "",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You turn around and begin to run. He's gaining on you.",
+      "prompt": ""
+    },
+    "alternateVoice": {
+      "intro": "",
+      "prompt": ""
+    },
+    "rejectVoice": {
+      "intro": "",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 12,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "setSessionFlagsOnEnter": "",
+    "setSessionFlagsOnExit": "",
+    "entryConditions": "",
+    "alternateConditions": "",
+    "card": {
+      "title": "Combat",
+      "text": "He's almost upon you and he's brandishing a knife.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "alternateCard": {
+      "title": "",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "rejectCard": {
+      "title": "",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "He's almost upon you and he's brandishing a knife.",
+      "prompt": ""
+    },
+    "alternateVoice": {
+      "intro": "",
       "prompt": ""
     },
     "rejectVoice": {

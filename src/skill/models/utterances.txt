@@ -23,5 +23,7 @@ GoEastIntent go east
 GoSouthIntent go south
 UseKnifeIntent use knife
 EnterTruckIntent enter truck
-OpenGloveCompartmentIntent open glove compartment
+OpenGloveBoxIntent open glove box
 TakeKnifeIntent take knife
+RunIntent run
+StandGroundIntent stand ground
